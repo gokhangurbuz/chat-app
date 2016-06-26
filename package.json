@@ -1,0 +1,43 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "jade": "~1.11.0",
+    "mocha": "^2.5.3",
+    "moment": "^2.13.0",
+    "morgan": "~1.6.1",
+    "pg-promise": "^4.7.1",
+    "redis-connection": "^4.0.3",
+    "serve-favicon": "~2.3.0",
+    "should": "^9.0.2",
+    "socket.io": "^1.4.6",
+    "supertest": "^1.2.0"
+  },
+  "scripts": {
+    "test": "mocha test",
+	"start":"node app"
+  },
+  "description": "chat application sample",
+  "main": "app.js",
+  "devDependencies": {},
+  "keywords": [
+    "chat",
+    "nodejs",
+    "redis",
+    "postgreSql",
+    "socket.io",
+    "express",
+    "restApi"
+  ],
+  "author": "Gokhan Gurbuz",
+  "license": "ISC"
+}
