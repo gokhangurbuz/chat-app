@@ -107,7 +107,7 @@
                     type: 'GET',
                     url: '/api/getMessageHistory?startIndex='+startIndex+'&endIndex='+endIndex,
                     success: function(data) {
-                        var data=JSON.parse(data).sort(sortDates).reverse();
+                        var data=JSON.parse(data).sort(sortDates);
                         $.each(data ,function (index,value) {
                             message = new Message({
                                 name: value.sendername,
